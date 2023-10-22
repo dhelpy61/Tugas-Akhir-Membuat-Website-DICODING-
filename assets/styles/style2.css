@@ -189,7 +189,7 @@ li a:hover {
     margin-bottom: 2rem;
 }   
 
-section h2 {
+#my_things h2 {
     text-align: center;
     font-weight: 600;
     font-size: 1.5rem;
@@ -290,7 +290,7 @@ aside  h2 {
 }
 
 .white {
-    text-shadow: 0px 0cqb 5px white;
+    text-shadow: 0px 0px 5px white;
 }
 
 .profile-con {
@@ -345,7 +345,7 @@ th {
 
 .logo-con a:hover {
     color: black;
-    text-shadow: 0px 0cqb 5px white;
+    text-shadow: 0px 0px 5px white;
 }
 
 footer {
@@ -547,7 +547,7 @@ footer {
 
     .logo-con a:hover {
         color: rgb(255, 255, 255);
-        text-shadow: 0px 0cqb 5px rgb(37, 105, 164);
+        text-shadow: 0px 0px 5px rgb(37, 105, 164);
     }
 }
 
