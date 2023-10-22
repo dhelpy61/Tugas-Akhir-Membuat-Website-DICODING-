@@ -9,3 +9,12 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('.navbar ul a');
+    links.forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('check').checked = false;
+      });
+    });
+  });

@@ -84,7 +84,6 @@ li a:hover {
     height: 100vh;
 }
 
-
 .head_desc {
     height: 100%;
     display: flex;
@@ -401,6 +400,16 @@ footer {
         transition: all .5s;
     }
 
+    .overlay {
+        position: fixed;
+        background: rgb(0, 0, 0);
+        height: 80px;
+        width: 100%;
+        top: -100%;
+        z-index: -1;
+        transition: .4s;
+    }
+
     nav ul li {
         display: block;
         margin: 50px 0;
@@ -415,6 +424,10 @@ footer {
         left: 0;
     }
 
+    #check:checked ~ .overlay {
+        top: 0;
+    }
+    
     .about-con {
         display: flex;
         flex-flow: column;
